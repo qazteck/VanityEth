@@ -31,6 +31,12 @@ generate 10 ethereum addresses with b00b5 as starting characters:
 ```sh
 $ vanityeth -n 10 -i b00b5
 ```
+
+generate 10 ethereum addresses with ab as starting characters and ba as ending characters:
+```sh
+$ vanityeth -n 10 -i ab -e ba
+```
+
 generate 10 ethereum addresses with B00B5 as the checksum address (case sensitive):
 ```sh
 $ vanityeth -n 10 -i B00B5 -c
